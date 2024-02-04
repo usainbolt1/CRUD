@@ -1,3 +1,30 @@
-img{
-	width: 100px;
+input{
+	text-align: center;
+
+}
+form{
+	text-align: center;
+	margin: inherit;
+
+}
+td{
+	background-color: #7FC7D9;
+	border-radius: 9px 9px 9px 9px;
+}
+table{
+	background-color: #365486;
+	border-radius: 12px 12px 12px 12px;
+	display: flex;
+    justify-content: center;
+	margin: auto;
+}
+
+body{
+	background-color: #DCF2F1;
+}
+.update{
+	text-decoration: none;
+}
+.delete{
+	text-decoration: none;
 }

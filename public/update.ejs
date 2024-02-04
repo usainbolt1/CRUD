@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
@@ -16,10 +16,10 @@
         <input id="PrPrice" type="number" name="price" placeholder="Price" value = "<%= obj.price %>"><br><br>
         <input id="PrImage" type="text" name="image" placeholder="Image"  value = "<%= obj.image %>"><br><br>
         <input id="PrUUID" type="number" name="uuid" placeholder="UUID"  value = "<%= obj.uuid %>"><br><br>
-        <input id="PrDes" type="text" name="description" placeholder="Description"  value = "<%= obj.description %>"><br><br>
+        <input  type="hidden" name="id"   value = "<%= obj._id %>">
         <input type="submit">
     </form>
 
-    <script src="script.js"></script>
+
 </body>
 </html>
